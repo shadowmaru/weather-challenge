@@ -26,13 +26,13 @@ Na história 4, crie uma tabela 'users' e modele o banco a partir daí. Deverá 
 ## Orientações gerais
 
 * Siga as histórias na ordem de prioridade. Procure focar em pequenos entregáveis. Tudo bem se não conseguir entregar tudo, mas faça o máximo que puder no tempo proposto.
-* Nós iremos avaliar a qualidade no código, as boas práticas e sua atenção com a qualidade na implementação. Esteja atento aos detalhes e
+* Nós iremos avaliar a qualidade no código, as boas práticas e sua atenção com a qualidade na implementação. Tenha atenção aos detalhes e
 busque tratar condições anormais de execução. 
 * O README deverá ter instruções detalhadas de como rodar a aplicação. Caso precise gerar usuários de testes para a história 4, facilite a criação dos mesmos para quem for rodar sua aplicação.
 * Envie-nos um link para um repositório seu ou um arquivo ZIP com a sua solução. **Não abra PRs para este repositório.**
 * Faça testes unitários para models e serviços. Testes de integração também são bem vindos.
 * Se quiser mostrar suas habilidades em HTML/CSS, você pode estilizar a página como achar conveniente. Caso a vaga seja estritamente para trabalhar no backend, não precisa focar nessa parte.
-* Se quiser mostrar suas habilidades em Javascript puro ou algum framework JS, fique a vontade. Isso é particularmente importante caso a vaga seja de full-stack ou o projeto precise de eventuais demandas no frontend.
+* Se quiser mostrar suas habilidades em Javascript puro ou algum framework JS, fique à vontade. Isso é particularmente importante caso a vaga seja de full-stack ou o projeto precise de eventuais demandas no frontend.
 * Não abuse das chamadas à API do OpenWeatherMap, já que é uma conta free. Você pode configurar sua própria conta caso precise de mais chamadas.
 * *O objetivo desta etapa não é somente resolver o problema proposto.* Mesmo que estes problemas não sejam extensos, nós esperamos que você encaminhe um código que acredite ser de qualidade, possível de ser rodado e evoluído. Use esse problema para nos mostrar as práticas que você utiliza no dia-a-dia para escrever um bom código.
 * Documentação da API: [Current weather data - OpenWeatherMap](https://openweathermap.org/current)
