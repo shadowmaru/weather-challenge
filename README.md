@@ -37,7 +37,7 @@ busque tratar condições anormais de execução.
 * *O objetivo desta etapa não é somente resolver o problema proposto.* Mesmo que estes problemas não sejam extensos, nós esperamos que você encaminhe um código que acredite ser de qualidade, possível de ser rodado e evoluído. Use esse problema para nos mostrar as práticas que você utiliza no dia-a-dia para escrever um bom código.
 * Documentação da API: [Current weather data - OpenWeatherMap](https://openweathermap.org/current)
 * Caso tenha alguma dúvida sobre esse desafio, você pode nos encaminhar via e-mail.
-* Caso tenha sugestões de melhorias ou críticas em relação ao desafio ou estrutura inicial do projeto, sinta-se livre de nos enviar via e-mail.
+* Caso tenha sugestões de melhorias ou críticas em relação ao desafio ou estrutura inicial do projeto, sinta-se à vontade de nos enviar via e-mail.
 ## Instruções
 
 ### Docker
