@@ -1,0 +1,28 @@
+<h1>Weather for <%= @weather.city %></h1>
+
+<h2><%= @weather.temperature %>&ordm;F</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Pressure</td>
+      <td><%= @weather.pressure %>hpa</td>
+    </tr>
+    <tr>
+      <td>Humidity</td>
+      <td><%= @weather.humidity %>%</td>
+    </tr>
+    <tr>
+      <td>Min Temperature</td>
+      <td><%= @weather.min_temperature %>&ordm;F</td>
+    </tr>
+    <tr>
+      <td>Max Temperature</td>
+      <td><%= @weather.max_temperature %>&ordm;F</td>
+    </tr>
+    <tr>
+      <td>Wind Speed</td>
+      <td><%= @weather.wind_speed %>mi/h</td>
+    </tr>
+  </tbody>
+</table>
