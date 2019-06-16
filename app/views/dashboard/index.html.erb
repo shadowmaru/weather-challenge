@@ -1,9 +1,9 @@
 <h1>Weather for <%= @weather.city %></h1>
 
-<h2><%= @weather.temperature %>&ordm;F</h2>
-
 <table>
   <tbody>
+    <tr>
+      <td><h2><%= @weather.temperature.to_f %>&ordm;F / <%= fahrenheit_to_celsius(@weather.temperature) %>&ordm;C</h2></td>
     <tr>
       <td>Pressure</td>
       <td><%= @weather.pressure %>hpa</td>
@@ -14,11 +14,13 @@
     </tr>
     <tr>
       <td>Min Temperature</td>
-      <td><%= @weather.min_temperature %>&ordm;F</td>
+      <td><%= @weather.min_temperature.to_f %>&ordm;F</td>
+      <td><%= fahrenheit_to_celsius(@weather.min_temperature) %>&ordm;C</td>
     </tr>
     <tr>
       <td>Max Temperature</td>
-      <td><%= @weather.max_temperature %>&ordm;F</td>
+      <td><%= @weather.max_temperature.to_f %>&ordm;F</td>
+      <td><%= fahrenheit_to_celsius(@weather.max_temperature) %>&ordm;C</td>
     </tr>
     <tr>
       <td>Wind Speed</td>
