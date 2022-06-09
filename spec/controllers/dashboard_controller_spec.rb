@@ -7,6 +7,12 @@ RSpec.describe DashboardController, type: :controller do
       get :index
       expect(response).to have_http_status(:success)
     end
+    
+    it '#index' do 
+      VCR.user_cassette "openweathermap/weather", record: :new_episodes do 
+        get :index
+      end
+      expect(response).to have_http_status(200)
+    end 
   end
-
 end
