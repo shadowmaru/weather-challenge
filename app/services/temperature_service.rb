@@ -1,6 +1,6 @@
 class TemperatureService
     def self.get_weather(city)
-      weather = openeweather2.get_weather(city: city || 'São Paulo, BR', units: 'imperial')
+      weather = Openweather2.get_weather(city: city || 'São Paulo, BR', units: 'imperial')
       weather = weather.instance_values
       weather['temperature_in_celsius'] = fahrenheit_to_celsius(weather['temperature'])
       weather['min_temperature_in_celsius'] = fahrenheit_to_celsius(weather['min_temperature'])
