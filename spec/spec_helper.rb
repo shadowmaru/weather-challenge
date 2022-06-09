@@ -1,9 +1,9 @@
-require 'webmock/rspec' # Webmock gem
-require 'json_matchers/rspec' # JSON Schema
-require 'vcr'
-require 'capybara'
+require 'json_matchers/rspec'
 require 'factory_bot'
 require 'httparty'
+require 'webmock/rspec'
+require 'capybara'
+require 'vcr'
 
 VCR.configure do |config|
   config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
@@ -29,7 +29,6 @@ RSpec.configure do |config|
   end
   
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
-RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
   # assertions if you prefer.
